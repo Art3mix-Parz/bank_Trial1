@@ -2,7 +2,7 @@
 #include <fstream>
 #include <iomanip>
 using namespace std;
-
+//here is the account class
 class account
 {
 	int acno;
@@ -96,7 +96,7 @@ void modify_account(int);
 void delete_account(int);
 void display_all();
 void deposit_withdraw(int, int);
-
+//and here goes the main function
 int main()
 {
 	char ch;
